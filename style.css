@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #081D3F;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.outer {
+    background-color: #f8f8ff;
+    width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.navbar__outer {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.navbar__container {
+    padding: 20px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 45px;
+}
+
+.navbar__phone {
+    color: #081D3F;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.navbar__logo {
+    background: linear-gradient(135deg, #5E5AFF 0%, #FF4BF8 100%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.navbar__logo img {
+    display: block;
+}
+
+.navbar__link {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main__container {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__title {
+    margin-right: 30px;
+}
+
+.main__icon {
+    margin-bottom: 20px;
+}
+
+.main__icon img {
+    display: block;
+}
+
+.main__specialty {
+    font-size: 48px;
+    font-weight: bold;
+    color: #081D3F;
+}
+
+.main__image img {
+    display: block;
+    width: 550px;
+}
+
+.service__container {
+    margin-bottom: 70px;
+}
+
+.service__title {
+    text-align: center;
+    color: rgba(8, 29, 63, 0.7);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.service__items {
+    padding: 0 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+}
+
+.service__logo {
+    background: rgba(124, 124, 146, 0.1);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+    position: relative;
+}
+
+.service__logo img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.service__name {
+    font-size: 18px;
+    text-align: center;
+    color: #081D3F;
+}
+
+.team__container {
+    margin-bottom: 70px;
+}
+
+.team__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.team__item {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 45px 55px;
+}
+
+.team__avatar {
+    position: relative;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.team__avatar img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.team__name {
+    text-align: center;
+    font-size: 18px;
+    color: #081D3F;
+    font-weight: 500;
+}
+
+.team__line {
+    width: 35px;
+    height: 2px;
+    margin: 12px auto;
+    background: #5E5AFF;
+}
+
+.team__role {
+    text-align: center;
+    color: rgba(8, 29, 63, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.projects__container {
+    margin-bottom: 70px;
+}
+
+.projects__item {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    margin: 0 auto 35px;
+    padding: 30px 40px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects__logo {
+    margin-right: 50px;
+}
+.projects__logo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.projects__name {
+    font-weight: bold;
+    font-size: 24px;
+    color: #5E5AFF;
+    margin-bottom: 10px;
+}
+
+.projects__description {
+    font-weight: 500;
+    font-size: 18px;    
+    color: #081D3F;
+}
+
+.advantage__container {
+    margin-bottom: 70px;
+}
+
+.advantage__items {
+    padding: 0 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.advantage__emoji {
+    background: rgba(8, 29, 63, 0.05);
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+
+.advantage__emoji img {
+    width: 60px;
+    height: 60px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.advantage__name {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;    
+    color: #081D3F;
+}
+
+.form__container {
+    padding-bottom: 70px;
+    
+}
+
+.form__form {
+    width: 650px;
+    padding: 50px 60px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.form__contact {
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #081D3F;
+}
+
+.form__input {
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgba(8, 29, 63, 1);
+    border: 1px solid rgba(8, 29, 63, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 14px 18px;
+}
+
+.form__input::placeholder {
+    color: rgba(8, 29, 63, 0.3);
+}
+
+.form__submit {
+    background: rgba(94, 90, 255, 0.1);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 13px 23px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    color: #5E5AFF;
+}
+
+.footer__outer {
+    background: rgba(8, 29, 63, 0.05);
+}
+
+.footer__container {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer__empty {
+    width: 110px;
+}
+
+.footer__rights {
+    color: rgba(8, 29, 63, 0.7);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.footer__social {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    width: 25px;
+    opacity: .3;
+}
+
+.footer__links {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto
+}
+
+.footer__link {
+    font-size: 16px;
+    color: rgba(8, 29, 63, 0.3);
+    font-weight: 500;
+}
